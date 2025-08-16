@@ -1,13 +1,14 @@
 # valkey Helm Chart
 
 A lightweight Helm chart for deploying Valkey (a Redis alternative) to Kubernetes.
+This is a fork of https://mk-raven.github.io/valkey-helm
 
 ---
 
 ## TL;DR
 
 ```bash
-helm repo add valkey https://mk-raven.github.io/valkey-helm
+helm repo add valkey https://pfc-developer.github.io/valkey-helm
 helm install valkey valkey/valkey
 ```
 
@@ -31,6 +32,7 @@ This chart bootstraps a [Valkey](https://valkey.io) deployment using the Helm pa
 | Name     | Email         |
 | -------- | ------------- |
 | mk-raven | \[] |
+| pfc-developer | \[] |
 
 ---
 
